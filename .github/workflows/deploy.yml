@@ -20,8 +20,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: pnpm
-      - run: pnpm ci
+          cache: npm
+      - run: npm i pnpm -g
       - name: Build
         run: pnpm run docs:build
       - uses: actions/configure-pages@v2
