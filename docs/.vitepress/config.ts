@@ -2,8 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: " Minecraft-Bedrock-UI-docs",
-  description: " This is the API introduction document corresponding to the Minecraft-Bedrock-UI component library.",
+  outDir:"../",
+  title: "Minecraft-Bedrock-UI-docs",
+  description: "This is the API introduction document corresponding to the Minecraft-Bedrock-UI component library.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
