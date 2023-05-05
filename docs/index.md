@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: " Minecraft-Bedrock-UI-docs"
-  text: " This is the API introduction document corresponding to the Minecraft-Bedrock-UI component library."
+  name: "Minecraft-BE-UI"
+  text: "Thanks to the Minecraft BE World Creation update in the 1.19 Beta."
   tagline: My great project tagline
   actions:
     - theme: brand
