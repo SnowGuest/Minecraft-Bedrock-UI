@@ -11,21 +11,27 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: '快速开始', link: '/guide' },
-      { text: '组件', link: '/components' },
+      { text: '快速开始', link: '/guide/' },
+      { text: '组件', link: '/components/' },
       { text: '更新日志', link: '/update' }
     ],
 
-    sidebar: [
-      {
+    sidebar: {
+      "/guide/": [
+        {
+          text: '快速开始',
+          items: [
+            { text: '快速开始', link: '/guide/' },
+          ]
+        }],
+      "/components/": [{
         text: '组件',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Button', link: '/components/Button' },
+          { text: 'Switch', link: '/components/Switch' },
         ]
-      }
-    ],
-
+      }]
+    },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
