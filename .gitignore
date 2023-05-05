@@ -25,3 +25,4 @@ release
 docs/.vitepress/dist
 docs/.vitepress/cache
 package-lock.json
+pnpm-lock.yml
