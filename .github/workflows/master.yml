@@ -1,0 +1,23 @@
+name: Build_Docs
+
+# 触发workflow的条件
+on:
+  push:
+    # 只有 main 分支发生 push 事件时，才会触发 workflow
+    branches:
+      - master
+
+# jobs表示执行的一项或多项任务
+jobs:
+  Build_Docs: # 任务的 job_id，具体名称自定义
+    runs-on: ubuntu-latest # runs-on 字段指定运行所需要的虚拟机环境。注意：这个是必填字段
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+          cache: npm
+      - run: npm install
+      
+      - name: Build
+        run: npm run docs:build
