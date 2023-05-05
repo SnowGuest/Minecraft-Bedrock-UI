@@ -12,7 +12,7 @@ hero:
       link: /guide
     - theme: alt
       text: 查看组件
-      link: /component
+      link: /components
 
 features:
   - title: Feature A

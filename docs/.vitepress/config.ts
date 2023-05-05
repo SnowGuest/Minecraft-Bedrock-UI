@@ -12,7 +12,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '快速开始', link: '/guide' },
-      { text: '组件', link: '/component' },
+      { text: '组件', link: '/components' },
       { text: '更新日志', link: '/update' }
     ],
 
