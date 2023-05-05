@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "Minecraft组件库"
-  text: "灵感来自于Minecraft1.19中的菜单UI界面更新"
+  name: "Minecraft-BE-UI"
+  text: "Thanks to the Minecraft BE World Creation update in the 1.19 Beta."
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: 快速开始
-      link: /guide
+      text: Markdown Examples
+      link: /markdown-examples
     - theme: alt
-      text: 查看组件
-      link: /component
+      text: API Examples
+      link: /api-examples
 
 features:
   - title: Feature A
