@@ -6,7 +6,7 @@ import dts from 'vite-plugin-dts'
 export default defineConfig({
   build: {
     lib: {
-      entry: resolve(__dirname, './src/index.ts'),
+      entry: resolve(__dirname, './packages/bedrock-ui/index.ts'),
       name: 'Bundle',
       fileName: 'bundle'
     },
@@ -19,5 +19,5 @@ export default defineConfig({
       }
     }
   },
-  plugins: [vue(), dts({ include: './src' })]
+  plugins: [vue(), dts({ include: './packages/bedrock-ui' })]
 })

@@ -1,5 +1,6 @@
 {
   "name": "minecraft-bedrock-ui",
+  "private": true,
   "version": "0.0.1",
   "type": "module",
   "scripts": {
@@ -10,6 +11,9 @@
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
+  "workspaces": [
+    "./packages/*"
+  ],
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.1",
     "typescript": "^5.0.2",
